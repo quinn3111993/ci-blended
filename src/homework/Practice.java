@@ -1,3 +1,5 @@
+package homework;
+
 class DrumKit {
     boolean topHat = true;
     boolean snare = true;
