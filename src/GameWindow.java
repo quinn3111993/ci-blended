@@ -47,6 +47,7 @@ public class GameWindow extends JFrame {
         gc = new GameCanvas();
         setContentPane(gc);
         setVisible(true);
+        gc.gameLoop();
     }
 
 }
